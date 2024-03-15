@@ -157,6 +157,12 @@
     height: 50%;
     top: 15%;
 }
+.desencriptado img{
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 15%;
+}
 /*Responsive design*/
 @media (max-width: 57.5em){
     .container{
@@ -206,6 +212,11 @@
         top: 5%;
     }
     .encriptado img{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+    .desencriptado img{
         top: 0;
         display: none;
         visibility: hidden;
